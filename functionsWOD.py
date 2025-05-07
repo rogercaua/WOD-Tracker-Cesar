@@ -84,14 +84,16 @@ def imprimir_menu():
     elif escolha == '2':
         listar_treinos(treinos)
     elif escolha == '3':
-        excluir_treino(treinos)
+        excluir_treino(treinos) #falta 
     elif escolha == '4':
-        editar_treino_por_indice()
+        editar_treino_por_indice() #falta
     elif escolha == '5':
-        treino_por_data()
-    elif escolha == '6':
-        salvar_treinos_em_csv(treinos)
+        treino_por_data() #falta
+    elif escolha == '6'
+        treino_por_tipo() # falta
     elif escolha == '7':
+        salvar_treinos_em_csv(treinos)
+    elif escolha == '8':
         print("Saindo do programa...")
         exit()
     else:
