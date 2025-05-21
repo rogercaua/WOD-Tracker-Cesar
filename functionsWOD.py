@@ -115,7 +115,7 @@ def query_treinos_por_tipo(treinos):
 
 #-------------------------------------------------->
 
-
+#José
 def contar_treinos_por_tipo(treinos):
     if not treinos:
         print("Nenhum treino registrado.")
