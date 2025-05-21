@@ -1,4 +1,4 @@
-
+#Guilherme
 def adicionar_treino(treinos):
     data = input('>>>Digite a data do treino (dd/mm/aaaa): ').strip()
     tipo = input('>>>Digite o tipo de treino (AMRAP, EMOM, For Time): ').strip()
@@ -51,7 +51,7 @@ def listar_treinos(treinos):
         print('Não existe nenhum treino registrado. Adicione algum!')
 
 #-------------------------------------------------->
-
+#guilherme
 def excluir_treino(treinos):
     listar_treinos(treinos)
     try:
