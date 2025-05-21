@@ -1,6 +1,8 @@
 from functionsWOD import *
 
-ARQUIVO = 'arquivo_treinos.csv'
 
-imprimir_menu()
+if __name__ == '__main__':
+    while True:
+        ARQUIVO = 'arquivo_treinos.csv'
 
+        imprimir_menu(ARQUIVO)
