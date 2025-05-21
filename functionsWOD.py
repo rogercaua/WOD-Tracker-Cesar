@@ -134,7 +134,7 @@ def contar_treinos_por_tipo(treinos):
 
 
 #-------------------------------------------------->
-
+#Rafael
 def imprimir_menu(ARQUIVO):
     treinos = importar_treinos(ARQUIVO)
 
