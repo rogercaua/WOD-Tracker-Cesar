@@ -1,3 +1,4 @@
+
 def adicionar_treino(treinos):
     data = input('>>>Digite a data do treino (dd/mm/aaaa): ').strip()
     tipo = input('>>>Digite o tipo de treino (AMRAP, EMOM, For Time): ').strip()
@@ -64,7 +65,7 @@ def excluir_treino(treinos):
         print(f'Houve um erro ao excluir o treino \n{e}')
 
 #-------------------------------------------------->
-
+#João
 def editar_treino_por_indice(treinos):
     listar_treinos(treinos)
     try:
