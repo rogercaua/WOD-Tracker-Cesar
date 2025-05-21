@@ -86,7 +86,7 @@ def editar_treino_por_indice(treinos):
         print(f'Houve um erro ao editar o treino \n{e}')
 
 #-------------------------------------------------->
-
+#Rafael
 def query_treinos_por_data(treinos):
     if treinos:
         data = input('>>>Digite a data (dd/mm/aaaa): ').strip()
