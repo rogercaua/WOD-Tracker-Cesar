@@ -10,7 +10,7 @@ def adicionar_treino(treinos):
     print('Treino adicionado com sucesso!')
 
 #-------------------------------------------------->
-
+# Joshua
 def importar_treinos(ARQUIVO):
     treinos = []
     try:
