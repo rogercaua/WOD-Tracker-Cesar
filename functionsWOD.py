@@ -114,6 +114,27 @@ def query_treinos_por_tipo(treinos):
 
 #-------------------------------------------------->
 
+
+def contar_treinos_por_tipo(treinos):
+    if not treinos:
+        print("Nenhum treino registrado.")
+        return
+
+    contagem = {'AMRAP': 0, 'EMOM': 0, 'For Time': 0}
+    for treino in treinos:
+        tipo = treino[1]
+        if tipo in contagem:
+            contagem[tipo] += 1
+        else:
+            contagem[tipo] = 1  # Caso haja outro tipo digitado
+
+    print("\n--- Quantidade de treinos por tipo ---")
+    for tipo, qtd in contagem.items():
+        print(f"{tipo}: {qtd}")
+
+
+#-------------------------------------------------->
+
 def imprimir_menu(ARQUIVO):
     treinos = importar_treinos(ARQUIVO)
 
